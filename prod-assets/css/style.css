@@ -183,7 +183,7 @@ img {
   color: #444;
   line-height: 1.2;
   margin-bottom: 5px;
-  letter-spacing: -0.05rem;
+  letter-spacing: -0.1rem;
 }
 .c-heading--level1 {
   font-size: 2.5rem;
@@ -315,6 +315,7 @@ img {
   display: block;
   color: #444;
   font-size: 0.875rem;
+  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -422,6 +423,60 @@ img {
     padding-bottom: 0;
   }
 }
+.t-site-header__icons {
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .t-site-header__icons {
+    text-align: right;
+  }
+}
+.t-site-header__icon {
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+}
+.t-site-header__number {
+  background-color: #F1C40F;
+  border-radius: 50%;
+  bottom: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 9px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  text-align: center;
+  right: -7px;
+  line-height: 14px;
+}
+.t-site-header__hero {
+  background: linear-gradient(0deg, #EBCB55 0%, #F8DB7E 100%);
+  color: #444;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+@media (min-width: 1200px) {
+  .t-site-header__hero {
+    padding-bottom: 180px;
+    padding-top: 200px;
+    background: url("/images/header-postac.png") 15% 100% no-repeat, linear-gradient(0deg, #EBCB55 0%, #F8DB7E 100%);
+  }
+}
+@media (min-width: 1200px) {
+  .t-site-header__hero-right {
+    padding-left: 475px;
+    padding-right: 0;
+  }
+}
+.t-site-header__intro-text {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.t-site-header__cta {
+  margin-top: 50px;
+}
+
 .t-our-company {
   padding-bottom: 60px;
   padding-top: 90px;
@@ -642,6 +697,18 @@ img {
 }
 .t-site-footer__text-heading {
   color: #797979;
+}
+
+.t-product-list {
+  background-color: #F2F3F5;
+}
+.t-product-list .c-product-selector {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.t-product-list .c-pagination {
+  margin-bottom: 70px;
+  margin-top: 40px;
 }
 
 .u-mb-1 {
