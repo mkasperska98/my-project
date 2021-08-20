@@ -1,0 +1,66 @@
+.t-newsletter {
+    background-color: $gray-light;
+    padding-bottom: $grid-base * 4.5;
+    padding-left: $grid-base;
+    padding-right: $grid-base;
+    padding-top: $grid-base * 4.5;
+
+    @include large-up {
+        padding-left: $grid-base * 7;
+        padding-right: $grid-base * 7;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__info {
+        width: 100%;
+        margin-bottom: $grid-base * 3;
+
+        @include large-up {
+            width: 45%;
+            margin-bottom: 0;
+        }
+    }
+
+    &__form {
+        width: 100%;
+
+        @include large-up {
+            width: 55%;
+        }
+    }
+
+    &__heading {
+        display: block;
+        font-size: $font-size-4;
+        color: $gray-very-dark;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: $grid-base;
+    }
+
+    &__subheading {
+        display: block;
+        font-size: $font-size-6;
+        color: $gray-very-dark;
+    }
+
+    &__input {
+        width: auto;
+
+        @include medium-up {
+            width: 72%;
+        }
+        
+    }
+
+    &__submit {
+        border-radius: 0 $border-radius $border-radius 0;
+        padding: .7rem 1.75rem;
+        margin-left: -4px;
+        
+    }
+}

@@ -639,66 +639,6 @@ img {
   margin-right: 0;
 }
 
-.t-site-footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.t-site-footer .o-row {
-  padding-bottom: 40px;
-  padding-top: 50px;
-}
-.t-site-footer__item {
-  flex-basis: auto;
-  padding-left: 15px;
-}
-@media (min-width: 800px) {
-  .t-site-footer__item:first-child {
-    width: 30%;
-  }
-}
-@media (min-width: 800px) {
-  .t-site-footer__item:nth-child(2) {
-    width: 28%;
-  }
-}
-@media (min-width: 800px) {
-  .t-site-footer__item:nth-child(3) {
-    width: 25%;
-  }
-}
-@media (min-width: 800px) {
-  .t-site-footer__item:nth-child(4) {
-    width: 15%;
-  }
-}
-.t-site-footer__heading {
-  align-items: center;
-  display: flex;
-  height: 60px;
-}
-.t-site-footer__address {
-  padding-top: 20px;
-}
-.t-site-footer__label {
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-.t-site-footer__contact-item {
-  line-height: 1.8;
-  margin-bottom: 20px;
-}
-.t-site-footer__copy {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.t-site-footer__copy-text {
-  font-size: 0.75rem;
-}
-.t-site-footer__text-heading {
-  color: #797979;
-}
-
 .t-product-list {
   background-color: #F2F3F5;
 }
@@ -709,6 +649,159 @@ img {
 .t-product-list .c-pagination {
   margin-bottom: 70px;
   margin-top: 40px;
+}
+
+.t-promoted {
+  padding-top: 80px;
+}
+.t-promoted .o-row {
+  margin-bottom: 30px;
+}
+.t-promoted__item {
+  padding-bottom: 65px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 65px;
+}
+.t-promoted__item--first {
+  background-color: #F1C40F;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+@media (min-width: 800px) {
+  .t-promoted__item--first {
+    background: url(/images/promo-1.jpg) no-repeat;
+  }
+}
+@media (min-width: 1200px) {
+  .t-promoted__item--first {
+    padding-left: 70px;
+  }
+}
+.t-promoted__item--second {
+  background-color: #2BB9D5;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .t-promoted__item--second {
+    background: url(/images/promo-2.jpg) no-repeat;
+    padding-left: 70px;
+  }
+}
+.t-promoted__item--second .c-btn {
+  margin-top: 25px;
+}
+.t-promoted__item--third {
+  background-color: #F3BBC4;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .t-promoted__item--third {
+    background: url(/images/promo-3.jpg) no-repeat;
+    padding-left: 280px;
+  }
+}
+.t-promoted__item--third .c-btn {
+  margin-top: 25px;
+}
+.t-promoted__text {
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.t-promoted__text--size1 {
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.t-promoted__text--size2 {
+  display: block;
+  font-size: 1.5rem;
+}
+.t-promoted__text--size3 {
+  font-size: 1.5rem;
+}
+.t-promoted__code .c-btn {
+  margin-left: 20px;
+}
+
+.t-newsletter {
+  background-color: #F2F3F5;
+  padding-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 45px;
+}
+@media (min-width: 1200px) {
+  .t-newsletter {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+.t-newsletter__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.t-newsletter__info {
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+  .t-newsletter__info {
+    width: 45%;
+    margin-bottom: 0;
+  }
+}
+.t-newsletter__form {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .t-newsletter__form {
+    width: 55%;
+  }
+}
+.t-newsletter__heading {
+  display: block;
+  font-size: 1.125rem;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.t-newsletter__subheading {
+  display: block;
+  font-size: 0.875rem;
+  color: #444;
+}
+.t-newsletter__input {
+  width: auto;
+}
+@media (min-width: 800px) {
+  .t-newsletter__input {
+    width: 72%;
+  }
+}
+.t-newsletter__submit {
+  border-radius: 0 5px 5px 0;
+  padding: 0.7rem 1.75rem;
+  margin-left: -4px;
+}
+
+.t-shopper-info {
+  padding-bottom: 70px;
+  padding-top: 60px;
+}
+.t-shopper-info__item {
+  margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .t-shopper-info__item {
+    margin-bottom: 0;
+  }
 }
 
 .u-mb-1 {

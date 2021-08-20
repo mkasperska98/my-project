@@ -2,7 +2,7 @@
     text-align: center;
 
     &__image {
-        margin-bottom: $grid-base * 1.5;
+       margin-bottom: $grid-base * 1.5;
     }
 
     &__name {
@@ -18,5 +18,5 @@
         color: $gray-dark;
         display: block;
         font-size: $font-size-7;
-        }
+    }
 }
